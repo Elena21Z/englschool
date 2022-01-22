@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>English School</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="reset.css" />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Cormorant+Garamond:ital,wght@0,600;1,700&family=Lobster&family=Nunito+Sans:wght@200&family=Oxygen:wght@300&family=Playfair+Display&family=Smooch&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Cormorant+Garamond:ital,wght@0,600;1,700&family=Lobster&family=Nunito+Sans:wght@300&family=Oxygen:wght@300&family=Playfair+Display&family=Smooch&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="icons/css/all.css"/>
+</head>
+<style>
+    :root {
+        --font-family: Nunito Sans;
+    }
+
+    .image { /*фон*/
+        background-image: url("hero.jpg");
+        width: 1349px;
+        height: 900px;
+        background-position: center;
+        background-size: cover;
+    }
+    .logo {/*логотип*/
+        width: 100px;
+        height: 100px;
+        margin-top: -900px;
+        margin-left: 170px;
+        margin-bottom: 900px;
+    }
+    .menu {
+        color: rgb(7, 7, 7);
+        display: inline-block;
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 0px;
+        font-family: Nunito Sans; 
+    }
+    h1 {
+        font-family: var(--font-family);
+        font-size: 60px;
+        font-weight: 800;
+        margin-top: 165px;
+        margin-bottom: 60px;
+        margin-left: 0px;
+        padding-bottom: auto;
+    }
+    p {
+        font-family: var(--font-family);
+        font-size: 20px;
+        margin-left: 0px;
+        margin-top: -10px;
+        color: #44403c;
+    }
+    .header {
+        margin: auto;
+        width: 100%; 
+        max-width: 1024px;
+    }
+    .header-button {
+        margin-left: 0px;
+    margin-right: 20px; 
+    margin-top: 50px;
+    }
+    .button {/*кнопка*/
+        font-family: var(--font-family);
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+    background: #f97316; /* Цвет фона */
+    padding: 12px 30px 12px 30px; /* Поля вокруг текста */
+    border-radius: 5px; /* Уголки */
+    text-align: center;
+    border: none;
+     outline: none;
+    } 
+    .button:hover {
+       background-color: #ea580c;
+    }
+    .contacts1 {
+        font-family: var(--font-family);
+        font-size: 16px;
+        font-weight: 500;
+        color: #1c1917;
+    }
+    .contacts {
+    display: flex;
+    margin: auto;
+    font-size: 17px;
+    justify-content: flex-end; 
+    }
+    .title {/*заголовок*/
+        margin: auto;
+        width: 100%; 
+        max-width: 1024px;
+        font-family: var(--font-family);
+        display: flex;
+        justify-content: center;
+    }
+    .title_tit{
+        font-size: 35px;
+        font-weight: 600;
+        margin-top: -20px;
+    }
+    .backgraund {/*фон блоков*/
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 60px;
+        margin-left: 100px;
+    margin-right: 100px;
+    margin: auto;
+        width: 100%; 
+        max-width: 1024px;
+    }
+    .backgraund_grey {
+    background-color: #fafaf9;
+    border-radius: 5px;
+    width: 320px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    }
+    .backgraund_orange {
+    background-color: #f97316;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    }
+    .icon {/*иконки*/
+        font-size: 20px;
+        width: 100%; 
+        max-width: 1024px;
+        max-width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    .block3 {
+        margin: auto;
+        width: 100%; 
+        max-width: 1024px;
+        font-family: var(--font-family);
+    }
+    .title_block3 {/*заголовок блок-3*/
+        font-size: 28px;
+        font-weight: 600;
+        margin-top: 100px;
+    }
+    .text {
+font-size: 16px;
+margin-top: 20px;
+    }
+.group-people {/*картинка люди*/
+    width: 500px;
+    height: 350px;
+    float: right;
+    margin: auto;
+    margin-top: -100px;
+    margin-left: 20px;
+
+}
+.block4 {
+    background-color: #ffedd5;
+    margin-top: 100px;  
+    font-family: var(--font-family);
+    padding-bottom: 50px;
+    
+}
+.tit-block4 {/*заголовок блок-4*/
+    margin-top: 80px;
+}
+.text-block4 {
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+    font-size: 18px;
+    
+}
+.block4-button {/*кнопка блока-4*/
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+#name {
+width: 250px;
+height: 45px;
+border-radius: 5px;
+margin-right: 10px;
+font-size: 20px;
+}
+
+.block5 {
+    background-color: #FAFAF9;  
+    font-family: var(--font-family);
+    margin: auto;
+    padding-bottom: 50px;
+}
+.tit-block5 {/*заголовок блока-6*/
+    font-size: 40px;
+     font-weight: 600;
+     margin-top: 100px;
+
+}
+.reviews {
+    margin-left: 360px;
+    margin-top: -30px;      
+}
+.reviews-text {/*отзывы заголовок*/
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+.reviews-text2{/*отзывы*/
+    font-size: 15px;
+}
+.line {/*полоска*/
+    border-bottom: 1px solid #d6d3d1;
+    margin-top: 25px;
+    margin-right: 480px;
+}
+
+.tit-block6 {/*заголовок блока-6*/
+font-size: 40px;
+margin-top: 100px;
+}
+.border {/*рамки*/
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+border: solid;
+border-color:#d6d3d1 ;
+border-width: 1px;
+border-radius: 10px;
+margin-left: 500px;
+margin-right: 500px;
+padding-top: 50px;
+padding-bottom: 30px;
+}
+.price-month {/*текс в рамке*/
+color: #f97316;
+margin-left: 20px;
+}
+.price-lesson {/*текс в рамке*/
+    margin-left: 20px;
+    font-weight: 600;
+}
+.lesson {/*текс в рамке*/
+    margin-top: 20px;
+    margin-left: 20px;
+  font-size: 15px;
+}
+.button-block {/*кнопка блока-6*/
+    font-family: var(--font-family);
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 500;
+        color: #f97316;
+    background: #ffedd5; /* Цвет фона */
+    padding: 10px 100px 10px 100px; /* Поля вокруг текста */
+    border-radius: 5px; /* Уголки */
+    text-align: center;
+    border: none;
+     outline: none;
+     margin-top: 50px;
+     margin-left: 20px;
+}
+.button-block:hover {
+   background-color: #fed7aa;
+}
+.Contact-Information {
+    background-color: #d6d3d1;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    margin: auto;
+    margin-top: 50px;
+}
+.phone-logo {
+color: #78716c;
+margin-left: -20px;
+}
+.insta {
+    width: 25px;
+    width: 25px;
+    color: #78716c;
+}
+.social-networks{
+    font-size: 25px;
+    color: #78716c;
+}
+.email-email {
+    font-size:17px ;
+}
+
+</style>
+<body>
+<header>
+<div class="image">
+    <div class="header">
+    <a class="menu" href="#tit-block6">Стоимость</a>
+    <a class="menu" href="#tit-block5">Отзывы</a>
+<div class="contacts">
+<i class="fas fa-phone-alt phone-logo"></i> 
+<p class="contacts1">+7 (123) 456-78-90</p>
+</div>
+    <h1>Лучший способ<br> заговорить на<br> английском</h1>
+    <p>Занимайся онлайн в удобное время в<br> любом месте! Запишитесь на бесплатный<br> пробный урок уже сегодня.</p>
+    <div class="header-button">
+    <button class="button">Записаться на пробный урок</button> 
+   </div> 
+   </div>
+   </div>
+<img class="logo" alt="" src= "logo.svg"/>
+</header>
+<main>
+<div class="title">
+    <h1 class="title_tit">Начните разговаривать с первого занятия</h1>
+    </div>
+    <div class="backgraund">
+        <div class="backgraund_grey">
+           <div class="background_orange"></div> 
+           <i class="far fa-comment-dots icon"></i>    
+           </div>
+ <div class="backgraund_grey">
+    <div class="background_orange"></div>
+        <i class="fas fa-globe icon"></i>
+         </div>
+        <div class="backgraund_grey">
+           <div class="background_orange"></div> 
+           <i class="far fa-user icon"></i>
+        </div>
+       </div>
+<div class="block3">
+    <div class="title_block3">Мы научим говорить уверенно!</div>
+       <p class="text"><img src="group-people.jpg" class="img group-people">Мы считаем, что главная задача языка - помочь нам общаться друг с другом. Поэтому на наших занятиях мы отдаем приоретет разговорной речи и навыкам аудирования.</p>
+       <p class="text">Мы не изучаем грамматические правила по учебнику, мы не выполняем задания, где нужно раскрыть скобки или поставить правильный артикль, мы занимаем самым главным - разговариваем. Мы разговариваем на самые актуальные и интересные темы, чтобы вы могли пополнить свой словарным запас актуальными современными словами.</p>
+       </div>
+<div class="block4">
+    <div class="title">
+        <h1 class="title_tit tit-block4">Запишитесь на бесплатный урок уже сегодня</h1>
+    </div>
+        <p class="text-block4">Преподаватель определит ваш уровень и Вы пройдете полноценный первый урок</p> 
+        <div class="block4-button">
+            <div class="forma">
+                <form action="/url">
+                    <input id="name" placeholder="Ваше имя"type="text" />
+                    <input id="name" placeholder="Ваш телефон"type="text" />
+                    <button class="button">Записаться на пробный урок</button> 
+                </form>
+                </div>
+                </div>
+                </div>
+<div class="block5">
+    <div class="title">
+         <h1 id="tit-block5">У нас уже более 500 довольных учеников!</h1>
+        </div>
+        <div class="reviews">
+            <p class="reviews-text">Ольга Морозова</p>
+                <br>
+             <p class="reviews-text2"> Спасибо огромное преподавателю Марине. Я замимаюсь уже 6 месяцев и это <br> лучшая школа иностранного языка, в которой я училась.</p>
+                <div class="line"></div>
+                    <p class="reviews-text">Андрей Иванов</p>
+                       <br>
+                    <p class="reviews-text2">Я учил английский 10 лет с 5 класса, но так и не мог уверенно разговаривать<br> даже на бытовые темы. Я начал учиться в вашей школе всего 4 месяца назад и<br> сейчас я вернулся из путешествия, в котором уверенно мог общаться с<br> таксистами, официантами и гидами. Теперь мне нестрашно путешествовать!</p>
+                             <div class="line"></div>
+                                <p class="reviews-text">Настя Петрова</p>
+                                <br>
+                                <p class="reviews-text2">Мне очень нравится методика преподавания, на уроках мы очень много<br> общаемся и не выполняем скучных задания из учебников. Благодаря занятиям<br> мой язык стал более живой, современный, я узнала про сленг, а на прошлой<br> неделе познакомилась с иностранцем!</p>
+                                    <div class="line"></div>
+                            </div>  
+                            </div>
+                            </div>
+    <div class="title">
+       <h1 id="tit-block6">Наши абонементы</h1>
+    </div>
+         <div class="border">
+             <div class="price">
+                 <p class="price-month">1 месяц</p>
+                      <br>
+                  <p class="price-lesson"> 12 000 руб/ 8 уроков</p>
+                  <p class="lesson">8 уроков
+                      <br>
+                      <br>
+                    занятия 2 раза в неделю
+                       <br>
+                       <br>
+                    индивидуальный уроки</p>
+                    <button class="button-block">Записаться</button>
+                         </div>
+                          </div>
+                         
+ <div class="border">
+    <div class="price">
+        <p class="price-month">3 месяца</p>
+           <br>
+         <p class="price-lesson"> 32 000 руб / 24 урока</p>
+             <p class="lesson">24 урока
+                 <br>
+                <br>
+             занятия 2 раза в неделю
+                      <br>
+                      <br>
+             индивидуальный уроки
+                   <br>
+                   <br>
+             бесплатный разговорный клуб</p>
+                   <button class="button-block">Записаться</button>
+                                </div>
+                                </div>
+ <div class="border">
+     <div class="price">
+         <p class="price-month">3 месяца</p>
+             <br>
+         <p class="price-lesson"> 32 000 руб / 24 урока</p>
+             <p class="lesson">24 урока
+                 <br>
+                 <br>
+             занятия 2 раза в неделю
+                 <br>
+                 <br>
+            индивидуальный уроки
+                  <br>
+                  <br>
+             бесплатный разговорный клуб</p>
+               <button class="button-block">Записаться</button>
+                </div>
+                 </div>
+</main>
+<footer>
+   <div class="Contact-Information">
+       <div class="contact">
+           <i class="fas fa-phone-alt phone-logo"></i> 
+            <p class="contacts1">+7 (123) 456-78-90</p>
+        </div>
+<div class="social-networks">
+        <img class="insta" alt="" src="instagram-icon.svg"/>
+        <i class="fab fa-facebook-square facebook"></i>
+        <i class="fab fa-twitter"></i>
+    </div>
+    <div class="Email">
+        <p class="email-email">english_house@email.com</p>
+    </div>
+   </div>
+</footer>
+</body>
+</html>

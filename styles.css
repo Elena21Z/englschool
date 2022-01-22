@@ -1,0 +1,281 @@
+<style>
+:root {
+    --font-family: Nunito Sans;
+}
+
+.image { /*фон*/
+    background-image: url("hero.jpg");
+    width: 1349px;
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+}
+.logo {/*логотип*/
+    width: 100px;
+    height: 100px;
+    margin-top: -900px;
+    margin-left: 170px;
+    margin-bottom: 900px;
+}
+.menu {
+    color: rgb(7, 7, 7);
+    display: inline-block;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 0px;
+    font-family: Nunito Sans; 
+}
+h1 {
+    font-family: var(--font-family);
+    font-size: 60px;
+    font-weight: 800;
+    margin-top: 165px;
+    margin-bottom: 60px;
+    margin-left: 0px;
+    padding-bottom: auto;
+}
+p {
+    font-family: var(--font-family);
+    font-size: 20px;
+    margin-left: 0px;
+    margin-top: -10px;
+    color: #44403c;
+}
+.header {
+    margin: auto;
+    width: 100%; 
+    max-width: 1024px;
+}
+.header-button {
+    margin-left: 0px;
+margin-right: 20px; 
+margin-top: 50px;
+}
+.button {/*кнопка*/
+    font-family: var(--font-family);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+background: #f97316; /* Цвет фона */
+padding: 12px 30px 12px 30px; /* Поля вокруг текста */
+border-radius: 5px; /* Уголки */
+text-align: center;
+border: none;
+ outline: none;
+} 
+.button:hover {
+   background-color: #ea580c;
+}
+.contacts1 {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    color: #1c1917;
+}
+.contacts {
+display: flex;
+margin: auto;
+font-size: 17px;
+justify-content: flex-end; 
+}
+.title {/*заголовок*/
+    margin: auto;
+    width: 100%; 
+    max-width: 1024px;
+    font-family: var(--font-family);
+    display: flex;
+    justify-content: center;
+}
+.title_tit{
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: -20px;
+}
+.backgraund {/*фон блоков*/
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-left: 100px;
+margin-right: 100px;
+margin: auto;
+    width: 100%; 
+    max-width: 1024px;
+}
+.backgraund_grey {
+background-color: #fafaf9;
+border-radius: 5px;
+width: 320px;
+height: 200px;
+display: flex;
+justify-content: center;
+}
+.backgraund_orange {
+background-color: #f97316;
+border-radius: 5px;
+width: 50px;
+height: 50px;
+margin-top: 20px;
+}
+.icon {/*иконки*/
+    font-size: 20px;
+    width: 100%; 
+    max-width: 1024px;
+    max-width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+}
+.block3 {
+    margin: auto;
+    width: 100%; 
+    max-width: 1024px;
+    font-family: var(--font-family);
+}
+.title_block3 {/*заголовок блок-3*/
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.text {
+font-size: 16px;
+margin-top: 20px;
+}
+.group-people {/*картинка люди*/
+width: 500px;
+height: 350px;
+float: right;
+margin: auto;
+margin-top: -100px;
+margin-left: 20px;
+
+}
+.block4 {
+background-color: #ffedd5;
+margin-top: 100px;  
+font-family: var(--font-family);
+padding-bottom: 50px;
+
+}
+.tit-block4 {/*заголовок блок-4*/
+margin-top: 80px;
+}
+.text-block4 {
+display: flex;
+justify-content: center;
+margin-top: -30px;
+font-size: 18px;
+}
+.block4-button {/*кнопка блока-4*/
+display: flex;
+justify-content: center;
+margin-top: 60px;
+}
+.block5 {
+background-color: #FAFAF9;  
+font-family: var(--font-family);
+margin: auto;
+padding-bottom: 50px;
+}
+.tit-block5 {/*заголовок блока-6*/
+font-size: 40px;
+ font-weight: 600;
+ margin-top: 100px;
+
+}
+.reviews {
+margin-left: 360px;
+margin-top: -30px;      
+}
+.reviews-text {/*отзывы заголовок*/
+margin-bottom: 5px;
+margin-top: 20px;
+}
+.reviews-text2{/*отзывы*/
+font-size: 15px;
+}
+.line {/*полоска*/
+border-bottom: 1px solid #d6d3d1;
+margin-top: 25px;
+margin-right: 480px;
+}
+
+.tit-block6 {/*заголовок блока-6*/
+font-size: 40px;
+margin-top: 100px;
+}
+.border {/*рамки*/
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+border: solid;
+border-color:#d6d3d1 ;
+border-width: 1px;
+border-radius: 10px;
+margin-left: 500px;
+margin-right: 500px;
+padding-top: 50px;
+padding-bottom: 30px;
+}
+.price-month {/*текс в рамке*/
+color: #f97316;
+margin-left: 20px;
+}
+.price-lesson {/*текс в рамке*/
+margin-left: 20px;
+font-weight: 600;
+}
+.lesson {/*текс в рамке*/
+margin-top: 20px;
+margin-left: 20px;
+font-size: 15px;
+}
+.button-block {/*кнопка блока-6*/
+font-family: var(--font-family);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: #f97316;
+background: #ffedd5; /* Цвет фона */
+padding: 10px 100px 10px 100px; /* Поля вокруг текста */
+border-radius: 5px; /* Уголки */
+text-align: center;
+border: none;
+ outline: none;
+ margin-top: 50px;
+ margin-left: 20px;
+}
+.button-block:hover {
+background-color: #fed7aa;
+}
+.Contact-Information {
+background-color: #d6d3d1;
+margin-bottom: 50px;
+padding-bottom: 50px;
+display: flex;
+justify-content: space-around;
+padding-top: 100px;
+margin: auto;
+}
+.phone-logo {
+color: #78716c;
+margin-left: -20px;
+}
+.insta {
+width: 25px;
+width: 25px;
+color: #78716c;
+}
+.social-networks{
+font-size: 25px;
+color: #78716c;
+}
+.email-email {
+font-size:17px ;
+}
+
+  </style> 
+
