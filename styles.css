@@ -1,6 +1,14 @@
 html {
     font-family: Nunito Sans;
 }
+:root {
+    --orange-color: #f97316;
+    --color: #ea580c;
+    --text-color: #44403c;
+    --black-color: black;
+    --border-color: #d6d3d1;
+    --background-color:#fafaf9 ;
+}
 
 .image { /*фон*/
     background-image: url("hero.jpg");
@@ -14,7 +22,7 @@ html {
     z-index: 100;
 }
 .menu {
-    color: rgb(7, 7, 7);
+    color: var(--black-color);
     display: inline-block;
     margin-top: 30px;
     padding-top: 20px;
@@ -22,7 +30,7 @@ html {
     padding-right: 0px; 
 }
 .menu:hover {
-   color: red;
+   color: var(--color);
 }
 h1 {
     font-size: 60px;
@@ -35,7 +43,7 @@ h1 {
 p {
     font-size: 20px;
     margin-left: 0px;
-    color: #44403c;
+    color: var(--text-color);
 }
 .header {
     margin: auto;
@@ -53,7 +61,7 @@ text-decoration: none;
 font-size: 20px;
 font-weight: 600;
 color: white;
-background: #f97316; /* Цвет фона */
+background: var(--orange-color); /* Цвет фона */
 padding: 12px 30px 12px 30px; /* Поля вокруг текста */
 border-radius: 5px; /* Уголки */
 text-align: center;
@@ -61,7 +69,7 @@ border: none;
  outline: none;
 } 
 .button:hover {
-   background-color: #ea580c;
+   background-color: var(--color);
 }
 .contacts1 {
     font-size: 16px;
@@ -99,7 +107,7 @@ margin: auto;
     max-width: 1024px;
 }
 .benefit {
-background-color: #fafaf9;
+background-color: var(--background-color);
 border-radius: 5px;
 width: 320px;
 height: 250px;
@@ -109,7 +117,7 @@ flex-direction: column;
 align-items: center;
 }
 .background_orange {
-background-color: #f97316;
+background-color: var(--orange-color);
 border-radius: 5px;
 width: 50px;
 height: 50px;
@@ -177,7 +185,7 @@ outline: none;
 }
 
 .block5 {
-background-color: #FAFAF9;  
+background-color: var(--background-color);  
 margin: auto;
 padding-bottom: 50px;
 }
@@ -200,7 +208,7 @@ font-size: 15px;
 line-height: 1.3;
 }
 .line {/*полоска*/
-border-bottom: 1px solid #d6d3d1;
+border-bottom: 1px solid var(--border-color);
 margin-top: 25px;
 margin-right: 260px;
 }
@@ -221,7 +229,7 @@ display: flex;
 justify-content: space-between;
 flex-direction: column;
 border: solid;
-border-color:#d6d3d1 ;
+border-color:var(--border-color) ;
 border-width: 1px;
 border-radius: 10px;
 width: 25%;
@@ -231,7 +239,7 @@ padding-top: 50px;
 padding-bottom: 30px;
 }
 .price-month {/*текс в рамке*/
-color: #f97316;
+color: var(--orange-color);
 
 }
 .price-lesson {/*текс в рамке*/
@@ -248,7 +256,7 @@ font-size: 15px;
     text-decoration: none;
     font-size: 17px;
     font-weight: 500;
-    color: #f97316;
+    color: var(--orange-color);
 background: #ffedd5; /* Цвет фона */
 padding: 10px 10px 10px 10px; /* Поля вокруг текста */
 border-radius: 5px; /* Уголки */
@@ -262,7 +270,7 @@ border: none;
 background-color: #fed7aa;
 }
 .Contact-Information {
-background-color: #d6d3d1;
+background-color: var(--border-color);
 margin-bottom: 50px;
 padding-bottom: 50px;
 display: flex;
@@ -278,9 +286,22 @@ margin-right: 20px;
 .social-networks{
 font-size: 25px;
 color: #78716c;
-
 }
-
+.fa-instagram {
+    padding-right: 10px;
+}
+.fa-instagram:hover {
+    color: var(--black-color);
+}
+.fa-facebook-square {
+    padding-right: 10px;
+}
+.fa-facebook-square:hover {
+    color: var(--black-color);
+}
+.fa-twitter:hover {
+color: var(--black-color);
+}
 .email-email {
 font-size:15px ;
 }
@@ -306,7 +327,7 @@ font-size: 15px;
     margin-top: 20px;
 }
 .benifit_text {
-    color: #44403c;
+    color: var(--text-color);
     line-height: 1.5;
     margin-bottom: 
 }
