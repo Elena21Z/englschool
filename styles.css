@@ -8,6 +8,7 @@ html {
     --black-color: black;
     --border-color: #d6d3d1;
     --background-color:#fafaf9 ;
+    --background: #ffedd5;
 }
 
 .image { /*фон*/
@@ -152,7 +153,7 @@ margin-left: 20px;
 
 }
 .block4 {
-background-color: #ffedd5;
+background-color: var(--background);
 margin-top: 100px;  
 padding-bottom: 50px;
 
@@ -257,7 +258,7 @@ font-size: 15px;
     font-size: 17px;
     font-weight: 500;
     color: var(--orange-color);
-background: #ffedd5; /* Цвет фона */
+background: var(--background); /* Цвет фона */
 padding: 10px 10px 10px 10px; /* Поля вокруг текста */
 border-radius: 5px; /* Уголки */
 text-align: center;
